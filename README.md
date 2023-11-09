@@ -2,7 +2,9 @@
 
 Dashboard admin para criação de lojas de roupas e acessóriso além de produtos, categorias, banners, tamanhos e cores.
 
-![image](https://github.com/Frisonjr/ecommerce-admin-dashboard/assets/39142481/355e07a7-cd35-4614-bc35-d92ce097d86d)
+![image](https://github.com/Frisonjr/ecommerce-admin-dashboard/assets/39142481/490781dc-4856-4be6-8f98-23ff103f122e)
+![image](https://github.com/Frisonjr/ecommerce-admin-dashboard/assets/39142481/b29417d0-9b14-49ac-b952-965e87ede609)
+![image](https://github.com/Frisonjr/ecommerce-admin-dashboard/assets/39142481/2fccb59a-ca11-4226-9d06-39b72f46c120)
 
 ## Getting Started
 
