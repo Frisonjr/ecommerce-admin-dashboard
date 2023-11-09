@@ -1,6 +1,13 @@
 ## Projeto de dashboard para ecommerce
 
 Dashboard admin para criação de lojas de roupas e acessóriso além de produtos, categorias, banners, tamanhos e cores.
+Principais funcionalidades da aplicação:
+🙍‍♂️ -Login autenticado com CLERK
+🗃 - Menu navegável
+📊-Opção de criar, editar e remover produtos, categorias, tamanhos e cores
+📊-Opção de criar e gerenciar diferentes lojas
+📊-Exibir todos os pedidos e status do pagamento
+📊-Gráfico com vendas e valores
 
 ![image](https://github.com/Frisonjr/ecommerce-admin-dashboard/assets/39142481/490781dc-4856-4be6-8f98-23ff103f122e)
 ![image](https://github.com/Frisonjr/ecommerce-admin-dashboard/assets/39142481/b29417d0-9b14-49ac-b952-965e87ede609)
