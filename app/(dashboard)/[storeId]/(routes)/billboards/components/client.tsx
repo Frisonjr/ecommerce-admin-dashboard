@@ -23,8 +23,8 @@ export const BillboardClient: React.FC<BillboardClientProps> = ({ data }) => {
     <>
       <div className="flex items-center justify-between">
         <Heading
-          title={`Outdoors (${data.length})`}
-          description="Gerencie seus outdoors"
+          title={`Banners (${data.length})`}
+          description="Gerencie seus banners"
         />
         <Button
           onClick={() => router.push(`/${params.storeId}/billboards/new`)}

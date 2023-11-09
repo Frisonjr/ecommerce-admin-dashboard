@@ -45,9 +45,9 @@ export const BillboardForm: React.FC<BillboardFormProps> = ({
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const title = initialData ? "Editar outdoor" : "Criar outdoor";
-  const description = initialData ? "Editar o outdoor." : "Adicionar outdoor";
-  const toastMessage = initialData ? "Outdoor alterado." : "Outdoor criado.";
+  const title = initialData ? "Editar banner" : "Criar banner";
+  const description = initialData ? "Editar o banner." : "Adicionar banner";
+  const toastMessage = initialData ? "Banner alterado." : "Banner criado.";
   const action = initialData ? "Salvar mudanças" : "Criar";
 
   const form = useForm<BillboardFormValues>({
@@ -153,7 +153,7 @@ export const BillboardForm: React.FC<BillboardFormProps> = ({
                   <FormControl>
                     <Input
                       disabled={loading}
-                      placeholder="Nome do outdoor"
+                      placeholder="Nome do banner"
                       {...field}
                     />
                   </FormControl>
