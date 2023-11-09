@@ -47,9 +47,7 @@ export const BillboardForm: React.FC<BillboardFormProps> = ({
 
   const title = initialData ? "Editar outdoor" : "Criar outdoor";
   const description = initialData ? "Editar o outdoor." : "Adicionar outdoor";
-  const toastMessage = initialData
-    ? "Outdoor alterado."
-    : "Outdoor criado.";
+  const toastMessage = initialData ? "Outdoor alterado." : "Outdoor criado.";
   const action = initialData ? "Salvar mudanças" : "Criar";
 
   const form = useForm<BillboardFormValues>({
@@ -92,7 +90,7 @@ export const BillboardForm: React.FC<BillboardFormProps> = ({
       toast.success("Billboard deleted.");
     } catch (error: any) {
       toast.error(
-        "Make sure you removed all categories using this billboard first."
+        "Confira se todas as categorias que estão utilizando essa imagem foram removidas."
       );
     } finally {
       setLoading(false);

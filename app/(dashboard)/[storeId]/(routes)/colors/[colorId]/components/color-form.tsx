@@ -159,6 +159,7 @@ export const ColorForm: React.FC<ColorFormProps> = ({ initialData }) => {
                         onChange={(color) => {
                           field.onChange(color.hex);
                         }}
+                        disableAlpha
                       />
                     </div>
                   </FormControl>
