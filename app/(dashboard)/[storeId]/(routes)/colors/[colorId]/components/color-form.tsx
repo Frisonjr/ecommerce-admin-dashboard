@@ -9,6 +9,7 @@ import { toast } from "react-hot-toast";
 import { Trash } from "lucide-react";
 import { Color } from "@prisma/client";
 import { useParams, useRouter } from "next/navigation";
+import Colorful from "@uiw/react-color-colorful";
 
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -144,15 +145,20 @@ export const ColorForm: React.FC<ColorFormProps> = ({ initialData }) => {
                 <FormItem>
                   <FormLabel>Valor</FormLabel>
                   <FormControl>
-                    <div className="flex items-center gap-x-4">
-                      <Input
-                        disabled={loading}
-                        placeholder="Valor da cor"
-                        {...field}
-                      />
-                      <div
-                        className="border p-4 rounded-full"
-                        style={{ backgroundColor: field.value }}
+                    <div className=" flex flex-col">
+                      <div className="flex items-center gap-x-4">
+                        <Input
+                          disabled={loading}
+                          placeholder="Valor da cor"
+                          {...field}
+                        />
+                      </div>
+                      <Colorful
+                        className="mt-4"
+                        color={field.value}
+                        onChange={(color) => {
+                          field.onChange(color.hex);
+                        }}
                       />
                     </div>
                   </FormControl>
